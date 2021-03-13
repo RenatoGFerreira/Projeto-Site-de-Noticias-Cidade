@@ -87,18 +87,21 @@ body.fotos #navegacao a#fotos{
 #primario{
     width: 270px;
     float: left;
+    margin: 0 0 20px 195px;
     background: blue;
 
 }
 #secundario{
     width: 270px;
     float: left;
+    margin: 0 0 20px 15px;
     background: green ;
     
 }
 #lateral{
     width: 180px;
     float: left;
+    margin: 0 0 20px -750px;
     background: yellow;  
 }
 
@@ -110,4 +113,12 @@ body.fotos #navegacao a#fotos{
 }
 #rodape{
     color: #fff;
+    text-align: center;
+}
+#rodape a{
+    text-decoration: none;
+    color: #fff;
+}
+#rodape a:hover{
+    color: #de003e;
 }
