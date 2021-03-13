@@ -1,5 +1,7 @@
 @charset "UTF-08";
 
+/* *****Configurações Gerais do Site***** */
+
 *{
     margin: 0;
     padding: 0;
@@ -18,11 +20,45 @@ body{
     height: 150px;
     background: url(../images/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
-    border: 1px solid red;
 }
 .logo{
     width: 152px;
     height: 66px;
     background: url(../images/logo.png);
-    text-indent: -3000px;
+    text-indent: -3000px; /*Isso foi feito porque se a logo do site não for carregada um motor de busca ou leitor para deficiente possa ler o conteudo */
+}
+
+
+/* *****Barra de Navegação***** */
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul{
+    margin-top: 30px;
+    background: #b10033;
+    float: left;
+}
+#topo ul li{
+    float: left;
+}
+
+#topo ul a{
+    font-size: 0.9em;
+    display: block;
+    padding:0.5em 1.5em ;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../images/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a{
+    background: none;
+}
+#topo ul a:hover{
+    color: #69001d;
 }
