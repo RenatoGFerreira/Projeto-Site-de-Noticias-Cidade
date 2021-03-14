@@ -35,6 +35,14 @@ h2{
     color: #fff;
     padding: 5px;
 }
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    background-color: #b10333;
+    color: #fff;
+}
 ul{
     margin: 0;
     padding: 0;
@@ -100,7 +108,7 @@ body.fotos #navegacao a#fotos{
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
+
 }
 
 #secundario{
@@ -164,6 +172,15 @@ input.submit{
     background-color: #b10333 ;
     border: 2px solid #870529;
     padding: 5px;
+}
+
+/* *****Formatando Imagens***** */
+img{
+    border: 2px solid #dfdfdf ;
+}
+img.imagem-principal{
+border: 3px solid #dfdfdf;
+width: 98%;
 }
 
 
