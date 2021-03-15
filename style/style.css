@@ -57,6 +57,14 @@ ul{
 
 /* *****Barra de Navegação***** */
 
+a:link, a:visited {
+    color: #b10333;
+    padding: 2px;
+}
+a:hover{
+    color: #e50040;
+}
+
 #topo ul{
     margin-top: 30px;
     background: #b10033;
@@ -132,7 +140,6 @@ body.fotos #navegacao a#fotos{
 #uma-coluna #primario{
     width: 750px;
     margin: 0 0 20px 0;
-    background: blue;
 }
 
 /* *****Caixa(Area das Entevistas)***** */
@@ -208,6 +215,7 @@ width: 98%;
 }
 #lista-noticias li a p{
     font-size: 0.7em;
+    color: #000;
 }
 #lista-noticias li:hover{
     background: #eee;
